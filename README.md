@@ -1,2 +1,2 @@
 # InDesign_Scripts
-Scripts for InDesign
+Collection of scripts for Adobe InDesign
