@@ -6,7 +6,7 @@
 
 Collection of scripts for Adobe InDesign
 
-##Contents
+## Contents
 Refer to the table below for a quick guide to the script names and descriptions.
 
 | **Script Name**  | **Description** |
