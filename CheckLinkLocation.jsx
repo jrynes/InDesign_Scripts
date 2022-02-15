@@ -28,15 +28,17 @@ function LinkCheck() {
       //Get file path of current link
       currLinkFName = mLinks[len].filePath;
       var errorFlag = ""
-      if (currLinkFName.indexOf('500-Draft Charrette Report') === -1 ) {
+      //Revise the target folder path below per your specific use case
+      if (currLinkFName.indexOf('Target Folder Path') === -1 ) {
           errorFlag = "ERROR - CHECK LINK --> "
           }
       textFile.writeln(errorFlag + currLinkFName)
+
       //Append link to text file in target folder
-      
       //currFile = File( destFolder + File(currLinkFName).name );  
       //if ( !currFile.exists && File(currLinkFName).exists )   
-      //mLinks[len].copyLink(currFile);  
+      //mLinks[len].copyLink(currFile);
+
       }
   
        textFile.close();
